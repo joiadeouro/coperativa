@@ -30,7 +30,7 @@ function carregarProdutos() {
       html += `
         <div class="col-md-4 mb-3">
           <div class="card">
-            <img src="${p.imagem}" class="card-img-top">
+            <img src="https://i.pinimg.com/736x/f9/62/9c/f9629cde1b1292773c3f6d027553e632.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">${p.nome}</h5>
               <p class="card-text">Preço: R$ ${p.preco.toFixed(2)}</p>
